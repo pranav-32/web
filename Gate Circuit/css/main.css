@@ -40,7 +40,6 @@ body {
 .main-content {
     background-color: rgb(191, 224, 253);
     padding: 100px;
-    height: 700px;
 }
 .gate-list-sub, .gate-list {
     display: flex;
