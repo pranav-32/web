@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Berlin Sans FB;
+    overflow: hidden;
+}
+.head-container {
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: cornflowerblue;
+    color: white;
+}
+.head-content {
+    user-select: none;
+}
+
+.head-text-span {
+    font-size: 32px;
+    font-weight: 600;
+    outline: none;
+    text-shadow: 0 0 4px rgb(40, 75, 139);
+}
+
+.main::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.main {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(160, 193, 255);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    background-color: rgb(191, 224, 253);
+    padding: 100px;
+    height: 700px;
+}
+.gate-list-sub, .gate-list {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 15px;
+    color: darkslategrey;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+.gate-list {
+    user-select: none;
+    outline: none;
+    margin: 100px 200px 100px 200px;
+}
+
+.gate-option, .gate {
+    border-radius: 5px;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 5px;
+    padding-right: 50px;
+    user-select: none;
+    outline: none;
+}
+
+.gate-list-sub {
+    margin-left: 25px;
+}
+.gate-option:hover, .gate:hover {
+    background-color: rgb(69, 127, 129);
+    color: rgb(25, 49, 49);
+}
